@@ -6,3 +6,9 @@ body {
     padding-top: 3.5rem;
     background: #E4ABEC;
 }
+/*lo que viene ahora es para editar el estilo del jumbotron, que es la entrada de la pagina*/
+.jumbotron{
+  background:  linear-gradient(to bottom, rgba(236,171,222,0.9) 0%,rgba(228,2171,236,0) 100%),url("https://st2.depositphotos.com/2885805/5664/v/950/depositphotos_56642687-stock-illustration-insects-sketch-set.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

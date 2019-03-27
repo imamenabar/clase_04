@@ -10,11 +10,12 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Mi CSS, (se pone el de bootstrap q es el por defecto y tambien se pone el mio de la hoja de estilo para hacer cambios del bootstrap y asi se complementes los estilos) -->
     <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <title>Is.Amenabar</title> <!-- esto es el titulo de la pagina, lo que aparece arriba de la ventana-->
   </head>
   <body> <!-- lo que viene aca, lo copie del codigo de fuente de uno de los examples de bootstrap, desde body hasta footer, despues fui haciendo ediciones, como los buttons y los modales-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-  <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light">
+  <a class="navbar-brand" href="#">Menu / Navbar</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -41,7 +42,9 @@
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search
+      <i class="fas fa-bug"></i>
+    </button>
     </form>
   </div>
 </nav>
@@ -53,19 +56,20 @@
     <div class="container">
       <h1 class="display-3">Holi gente</h1>
       <p>Esta es una pagina sacada de getbootstrap.com, examples, framework </p>
-      <p><a class="btn btn-primary btn-lg" href="#" role="button">jijijiji &raquo;</a></p>
+      <p><a class="btn btn-primary btn-lg" href="#" role="button">  <i class="fas fa-2x fa-bug"></i> </a></p>
     </div>
   </div>
 
   <div class="container">
     <!-- Example row of columns -->
     <div class="row">
-      <div class="col-md-4 alert-warning">
+      <div class="col-12 col-sm6 col-md-4 col-lg-3 alert-warning mb-5 mr-5">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a <!-- Button trigger modal -->
 <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#primerModal">
   Libélula
+  <i class="fas fa-star fa-2x"></i>
 </button>
 
 <!-- Modal -->
@@ -90,12 +94,13 @@
 </div>
 </a></p>
       </div>
-      <div class="col-md-4 alert-light">
+      <div class="col-12 col-sm6 col-md-4 col-lg-3 alert-warning mb-5 mr-5">
         <h2>Heading</h2>
         <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
         <p><a <!-- Button trigger modal -->
 <button type="button" class="btn btn-info" data-toggle="modal" data-target="#segundoModal">
   Escarabajo
+  <i class="fas fa-star fa-2x"></i>
 </button>
 
 <!-- Modal -->
@@ -120,13 +125,14 @@
 </div>
 </a></p>
       </div>
-      <div class="col-md-4 alert-success">
+      <div class="col-12 col-sm6 col-md-4 col-lg-3 alert-warning mb-5 mr-5"> <!-- el mb-5 es margen-bottom, significa el margen entre los cuadros-->
         <h2>Heading</h2>
         <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
         <p><a <!-- Button trigger modal -->
           <button type="button" class="btn btn-warning"
  data-toggle="modal" data-target="#tercerModal">
   Mariposa
+  <i class="fas fa-star fa-2x"></i>
 </button>
 
 <!-- Modal -->
@@ -160,7 +166,7 @@
 </main>
 
 <footer class="container">
-  <p>&copy; Company 2017-2019</p>
+  <p>&copy; Is.Amenabar 2019</p>
 </footer>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
